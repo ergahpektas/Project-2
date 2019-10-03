@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 
+// this is new comment
 import { AppComponent } from './app.component';
 
 @NgModule({
