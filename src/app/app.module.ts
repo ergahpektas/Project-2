@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
-
 import { BrowserModule } from '@angular/platform-browser';
-
-
-// this is new comment
 import { AppComponent } from './app.component';
+import { ProductListComponent } from './Products/product-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  pageTitle: string ='Acme Product Management';
+ }
